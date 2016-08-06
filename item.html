@@ -7,9 +7,9 @@
   <body>
     <!--шапка сайта-->
     <header class="header-main">
-      <div class="container">
+      <div class="main-container">
         <div class="logo">
-          <a href="#"><img src="img/logo.jpg"></a>
+          <a href="#"><img src="img/logo.gif" width="111" height="24" alt="Barbershop"></a>
         </div>
         <nav class="navigatiot-main">
           <ul>
@@ -36,38 +36,44 @@
       </div>
     </header>
     <!--контент-->
-    <main class="container">
+    <main class="main-container">
       <h1>набор для путешествий «Baxter of California»</h1>
       <div class="breadcrumbs">
         <ul>
-          <li class="action-beadcrumbs">
+          <li class="beadcrumbs-item">
             <a href="#">Главная</a>
           </li>
-          <li class="action-beadcrumbs">
+          <li class="beadcrumbs-item">
             <a href="#">Магазин</a>
           </li>
-          <li class="action-beadcrumbs">
+          <li class="beadcrumbs-item">
             <a href="#">Средства по уходу</a>
-            </li>
-          <li>набор для путешествий «Baxter of California»</li>
+          </li>
+          <li  class="beadcrumbs-item">набор для путешествий «Baxter of California»</li>
         </ul>
       </div>
-      <section class="picture">
-        <img class="picture-main" src="img/picture1">
-        <img class="picture-additional" src="img/picture2">
-        <img class="picture-additional" src="img/picture3">
-        <img class="picture-additional" src="img/picture4">
-      </section>
-      <section class="description">
-        <div class="description-left">
-          есть в наличии
+      <div class="container">
+        <div class="column-left">
+          <section class="picture">
+            <img class="picture-main" src="img/picture1.jpg" width="460" height="498" alt="Набор для путешествий">
+            <img class="picture-additional" src="img/picture2.jpg" width="140" height="149" alt="Набор для путешествий">
+            <img class="picture-additional" src="img/picture3.jpg" width="140" height="149" alt="Набор для путешествий">
+            <img class="picture-additional" src="img/picture4.jpg" width="140" height="149" alt="Набор для путешествий">
+          </section>
         </div>
-        <div class="description-right">
-          Артикул: dexter-ae
-        </div>
-        <div class="description-text">
+        <div class="column-right">
+          <section class="section">
+          <p>
+            <span class="section-left">
+              есть в наличии
+            </span>
+            <span class="section-right">
+              Артикул: dexter-ae
+            </span>
+          </p>
+        <p class="section-text">
           Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
-        </div>
+        </p>
       </section>
       <section class="price">
         <p>2 900 РУБ.</p>
@@ -75,7 +81,7 @@
       </section>
       <section class="content">
         <h2>В набор входят:</h2>
-        <ul>
+        <ul class="spec">
           <li>Средство для умывания (50 мл)</li>
           <li>Увлажняющий крем (50 мл)</li>
           <li>Крем для бритья (50 мл)</li>
@@ -83,10 +89,12 @@
           <li>Удобная кожаная космети</li>
         </ul>
       </section>
+    </div>
+  </div>
     </main>
     <!--подвал-->
     <footer class="footer-main">
-      <div class="container">
+      <div class="main-container">
         <div class="contacts-footer">
           БАРБЕРШОП «БОРОДИНСКИЙ»<br>
           АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
